@@ -49,10 +49,10 @@ panes.
 analyzed. By current default, the lowest frequency window is about 0.5
 seconds long. Using three cycles in 0.5 seconds sets the lowest frequency
 analyzed to about 6 Hz. To make this lowest frequency near 3 Hz, we
-would need to add the optional *newtimef.m* argument " 'winlen',
+would need to add the optional *newtimef.m* argument " 'winsize',
 xxx " where xxx is the sampling rate of the data (also
 shown on the blue EEGLAB menu window). This would specify that the
-window length ('winlen') at the lowest frequency should be xxx samples
+window length ('winsize') at the lowest frequency should be xxx samples
 long (i.e., 1 sec long). If we were using 1 cycle, the lowest frequency
 would be 1 Hz. With 3 cycles, the lowest frequency is 3 Hz.
 
